@@ -1,0 +1,138 @@
+.TaskWrapperContainer {
+    width: 46rem;
+}
+
+.form {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+
+    /* margin: 0 20px; */
+}
+
+.form > input {
+    width: 100%;
+    padding: 1rem;
+    height: 3.375rem;
+
+    background-color: var(--gray-500);
+    border-radius: 8px;
+    border: 1px solid var(--gray-700);
+
+    color: var(--gray-300);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+.form > button {
+    width: 5.625rem;
+    height: 3.25rem;
+
+    background-color: var(--blue-dark);
+    border-radius: 8px;
+    border: none;
+
+    color: var(--gray-100);
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.225rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    padding: 1rem;
+
+    transition: background-color 0.9s;
+    
+    cursor: pointer;
+}
+
+.form > button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.form > button:hover {
+    background-color: var(--blue);
+}
+
+
+.ContainerTask {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.TaskHeader {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.TaskHeader div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.childrent1 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.059rem;
+    color: var(--blue);
+}
+
+.childrend1 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.059rem;
+    color: var(--purple);
+}
+
+.childrent2 {
+    background-color: var(--gray-400);
+    padding: 0.125rem 0.5rem 0.125rem 0.5rem;
+    border-radius: 999px;
+
+    color: var(--gray-200);
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 0.908rem;
+}
+
+
+.TaskList {
+    width: 100%;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+    margin-top: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.NotTask {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+
+    margin-top: 4rem;
+}
+
+.NotTask > img {
+    width: 3.375rem;
+    height: 3.375rem;
+}
+
+.TaskInfo {
+    text-align: center;
+    color: var(--gray-300);
+}
